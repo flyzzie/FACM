@@ -47,6 +47,7 @@ parser.add_argument('-n', '--num_copies', type=int, default=1, help='number of c
 parser.add_argument('--model_name', type=str, default='UNMamba', help='model used')
 parser.add_argument('--seed', type=int, default=11, help='number of seed')
 
+
 parser.add_argument('-l', '--lr', type=float, default=5e-3, help='learning rate')
 parser.add_argument('--weight_mse', type=float, default=2, help='weight_mse')
 parser.add_argument('--weight_sad', type=float, default=1, help='weight_sad')
